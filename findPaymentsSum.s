@@ -1,6 +1,6 @@
-.globl _findPaymentsSum
+.globl findPaymentsSum
 
-_findPaymentsSum:
+findPaymentsSum:
     pushq %rbp
     movq  %rsp, %rbp
 

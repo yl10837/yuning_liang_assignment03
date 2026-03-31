@@ -1,6 +1,6 @@
-.globl _compareAges
+.globl compareAges
 
-_compareAges:
+compareAges:
     pushq %rbp
     movq  %rsp, %rbp
 

@@ -1,6 +1,6 @@
-.globl _sumOfPowers
+.globl sumOfPowers
 
-_sumOfPowers:
+sumOfPowers:
     pushq %rbp
     movq  %rsp, %rbp
 

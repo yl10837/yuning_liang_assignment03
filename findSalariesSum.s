@@ -1,6 +1,6 @@
-.globl _findSalariesSum
+.globl findSalariesSum
 
-_findSalariesSum:
+findSalariesSum:
     pushq %rbp
     movq  %rsp, %rbp
 
