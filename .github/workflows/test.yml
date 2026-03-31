@@ -9,22 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: TestCase-1 sumOfPowers
+      - name: Build and run all
         run: |
-          gcc main.c sumOfPowers.s -o a.out
-          ./a.out
-
-      - name: TestCase-2 compareAges
-        run: |
-          gcc main.c compareAges.s -o a.out
-          ./a.out
-
-      - name: TestCase-3 findPaymentsSum
-        run: |
-          gcc main.c findPaymentsSum.s -o a.out
-          ./a.out
-
-      - name: TestCase-4 findSalariesSum
-        run: |
-          gcc main.c findSalariesSum.s -o a.out
+          gcc main.c sumOfPowers.s compareAges.s findPaymentsSum.s findSalariesSum.s -o a.out
           ./a.out
